@@ -6,10 +6,17 @@
         "ext-iconv": "*",
         "doctrine/doctrine-bundle": "^1.6.10",
         "doctrine/orm": "^2.5.11",
+        "sensio/framework-extra-bundle": "^5.1",
         "symfony/console": "^4.0",
         "symfony/flex": "^1.0",
+        "symfony/form": "^4.0",
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
+        "symfony/maker-bundle": "^1.4",
+        "symfony/profiler-pack": "^1.0",
+        "symfony/security-csrf": "^4.0",
+        "symfony/serializer-pack": "^1.0",
+        "symfony/validator": "^4.0",
         "symfony/yaml": "^4.0"
     },
     "require-dev": {
