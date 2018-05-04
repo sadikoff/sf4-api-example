@@ -44,7 +44,7 @@ class RecordController extends Controller
         $em->persist($record);
         $em->flush();
 
-        return $this->json(['message' => 'success']);
+        return $this->json($record);
     }
 
     /**
@@ -72,7 +72,7 @@ class RecordController extends Controller
 
         $this->getDoctrine()->getManager()->flush();
 
-        return $this->json(['message' => 'success']);
+        return $this->json($record);
     }
 
     /**
@@ -84,7 +84,7 @@ class RecordController extends Controller
         $em->remove($record);
         $em->flush();
 
-        return $this->json(['message' => 'success']);
+        return $this->json('', Response::HTTP_NO_CONTENT);
     }
 
     /**
