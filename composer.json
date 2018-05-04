@@ -13,7 +13,6 @@
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
         "symfony/maker-bundle": "^1.4",
-        "symfony/profiler-pack": "^1.0",
         "symfony/security-csrf": "^4.0",
         "symfony/serializer-pack": "^1.0",
         "symfony/validator": "^4.0",
